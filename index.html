@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify_Clone</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <ul class="nav-logos">
+                <li><a href="#"><img src="images/Spotify_White_Logo.png" alt="Spotify" /></a></li>
+                <li class="home-link"><a href="#"><img src="images/Home_logo.png" alt="Home" /></a></li>
+                <li class="search-bar">
+                    <div class="spotify-search-bar">
+                        <img src="images/Search_Logo.png" class="icon left-icon" alt="Search" />
+                        <input type="text" placeholder="What do you want to play?" />
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="nav-links">
+                <li><a href="#">Premium</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Download</a></li>
+                <li class="divider">|</li>
+                <li><a href="#"><img src="images/Install_Icon.png">Install app</li>
+                <li><a href="#">Sign up</a></li>
+                <li class="Log-in"><button type="button">Log in</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <video autoplay muted loop playsinline class="hero-bg-video">
+            <source src="videos/1645926-hd_1920_1080_24fps.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="hero-content">
+            <h1>Listening is everything</h1>
+            <p>Millions of songs and podcasts. No credit card needed.</p>
+            <a href="#" class="cta-button">Get Spotify Free</a>
+        </div>
+    </section>
+
+    <div class="container">
+
+        <aside class="sidebar">
+            <h2>Your Library <span class="plus">+</span></h2>
+
+            <div class="card">
+                <h3>Create your first playlist</h3>
+                <p>It's easy, we'll help you</p>
+                <button>Create playlist</button>
+            </div>
+
+            <div class="card">
+                <h3>Let's find some podcasts to follow</h3>
+                <p>We'll keep you updated on new episodes</p>
+                <button>Browse podcasts</button>
+            </div>
+
+            <div class="lib-footer-links">
+                <a href="#">Legal</a>
+                <a href="#">Safety and Privacy Center</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookies</a>
+                <a href="#">About Ads</a>
+                <a href="#">Accessibility</a>
+            </div>
+
+            <div class="language-btn">
+                <img src="images/globe-icon.png" alt="Globe" />English
+            </div>
+        </aside>
+
+        <section class="main-content">
+
+            <a href="#">Today's biggest hits</a>
+            <div class="carousel-wrapper">
+                <div class="song-grid">
+                    <div class="song-item">
+                        <img src="images/song1.jpg" alt="Song 1" />
+                        <h3>Song Name</h3>
+                        <h4>Artist Name</h4>
+                    </div>
+                    <div class="song-item">
+                        <img src="images/song2.jpg" alt="Song 2" />
+                        <h3>Song Name</h3>
+                        <h4>Artist Name</h4>
+                    </div>
+                    <div class="song-item">
+                        <img src="images/song3.jpg" alt="Song 3" />
+                        <h3>Song Name</h3>
+                        <h4>Artist Name</h4>
+                    </div>
+                    <div class="song-item">
+                        <img src="images/song4.jpg" alt="Song 4" />
+                        <h3>Song Name</h3>
+                        <h4>Artist Name</h4>
+                    </div>
+                    <div class="song-item">
+                        <img src="images/song5.jpg" alt="Song 5" />
+                        <h3>Song Name</h3>
+                        <h4>Artist Name</h4>
+                    </div>
+                    <div class="song-item">
+                        <img src="images/song6.jpg" alt="Song 6" />
+                        <h3>Song Name</h3>
+                        <h4>Artist Name</h4>
+                    </div>
+                    <div class="song-item">
+                        <img src="images/song7.jpg" alt="Song 7" />
+                        <h3>Song Name</h3>
+                        <h4>Artist Name</h4>
+                    </div>
+                    <div class="song-item">
+                        <img src="images/song8.jpg" alt="Song 8" />
+                        <h3>Song Name</h3>
+                        <h4>Artist Name</h4>
+                    </div>
+                    <div class="song-item">
+                        <img src="images/song9.jpg" alt="Song 9" />
+                        <h3>Song Name</h3>
+                        <h4>Artist Name</h4>
+                    </div>
+                    <div class="song-item">
+                        <img src="images/song10.jpg" alt="Song 10" />
+                        <h3>Song Name</h3>
+                        <h4>Artist Name</h4>
+                    </div>
+                </div>
+            </div>
+
+
+            <a href="#">Popular artists</a>
+            <div class="carousel-wrapper">
+                <div class="artist1-grid">
+                    <div class="artist1-item">
+                        <img src="images/Charli xcx_artist_cover.jpg" alt="Artist 1" />
+                        <h4>Artist</h4>
+                    </div>
+                    <div class="artist1-item">
+                        <img src="images/Charlie Puth_artist_cover.jpg" alt="Artist 2" />
+                        <h4>Artist</h4>
+                    </div>
+                    <div class="artist1-item">
+                        <img src="images/Arijit Singh_artist_cover.jpg" alt="Artist 3" />
+                        <h4>Artist</h4>
+                    </div>
+                    <div class="artist1-item">
+                        <img src="images/TV Girl_artist_cover.jpg" alt="Artist 4" />
+                        <h4>Artist</h4>
+                    </div>
+                    <div class="artist1-item">
+                        <img src="images/Lana Del Rey_artist_cover.jpg" alt="Artist 5" />
+                        <h4>Artist</h4>
+                    </div>
+                    <div class="artist1-item">
+                        <img src="images/Bruno Mars_artist_cover.jpg" alt="Artist 6" />
+                        <h4>Artist</h4>
+                    </div>
+                    <div class="artist1-item">
+                        <img src="images/Sabrina Carpenter_artist_cover.jpg" alt="Artist 7" />
+                        <h4>Artist</h4>
+                    </div>
+                    <div class="artist1-item">
+                        <img src="images/Mohit Chauhan_artist_cover.jpg" alt="Artist 8" />
+                        <h4>Artist</h4>
+                    </div>
+                    <div class="artist1-item">
+                        <img src="images/Armaan Malik_artist_cover.jpg" alt="Artist 9" />
+                        <h4>Artist</h4>
+                    </div>
+                    <div class="artist1-item">
+                        <img src="images/Sunidhi Chauhan_artist_cover.jpg" alt="Artist 10" />
+                        <h4>Artist</h4>
+                    </div>
+                </div>
+            </div>
+
+            <p>Discover new music and podcasts.</p>
+            <a href="#">Popular playlists</a>
+            <div class="carousel-wrapper">
+                <div class="playlist-grid">
+                    <div class="playlist-item">
+                        <img src="images/playlist1.png" alt="Playlist 1" />
+                        <h3>Playlist Name</h3>
+                        <h4>Playlist Description</h4>
+                    </div>
+                    <div class="song-item">
+                        <img src="images/playlist2.png" alt="Playlist 2" />
+                        <h3>Playlist Name</h3>
+                        <h4>Playlist Description</h4>
+                    </div>
+                    <div class="playlist-item">
+                        <img src="images/playlist3.png" alt="Playlist 3" />
+                        <h3>Playlist Name</h3>
+                        <h4>Playlist Description</h4>
+                    </div>
+                    <div class="playlist-item">
+                        <img src="images/playlist4.png" alt="Playlist 4" />
+                        <h3>Playlist Name</h3>
+                        <h4>Playlist Description</h4>
+                    </div>
+                    <div class="playlist-item">
+                        <img src="images/playlist5.png" alt="Playlist 5" />
+                        <h3>Playlist Name</h3>
+                        <h4>Playlist Description</h4>
+                    </div>
+                    <div class="playlist-item">
+                        <img src="images/playlist6.png" alt="Playlist 6" />
+                        <h3>Playlist Name</h3>
+                        <h4>Playlist Description</h4>
+                    </div>
+                    <div class="playlist-item">
+                        <img src="images/playlist7.png" alt="Playlist 7" />
+                        <h3>Playlist Name</h3>
+                        <h4>Playlist Description</h4>
+                    </div>
+                    <div class="playlist-item">
+                        <img src="images/playlist8.png" alt="Playlist 8" />
+                        <h3>Playlist Name</h3>
+                        <h4>Playlist Description</h4>
+                    </div>
+                    <div class="playlist-item">
+                        <img src="images/playlist9.png" alt="Playlist 9" />
+                        <h3>Playlist Name</h3>
+                        <h4>Playlist Description</h4>
+                    </div>
+                    <div class="playlist-item">
+                        <img src="images/playlist10.png" alt="Playlist 10" />
+                        <h3>Playlist Name</h3>
+                        <h4>Playlist Description</h4>
+                    </div>
+                </div>
+            </div>
+
+            <p>Hear a little bit of everything you love.</p>
+            <a href="#">More of what you like</a>
+            <div class="carousel-wrapper">
+                <div class="more-grid">
+                    <div class="more-item">
+                        <img src="images/more1.png" alt="Playlist 1" />
+                        <h3>Playlist Name</h3>
+                        <h4>Playlist Description</h4>
+                    </div>
+                    <div class="more-item">
+                        <img src="images/more2.png" alt="Playlist 2" />
+                        <h3>Playlist Name</h3>
+                        <h4>Playlist Description</h4>
+                    </div>
+                    <div class="more-item">
+                        <img src="images/more3.png" alt="Playlist 3" />
+                        <h3>Playlist Name</h3>
+                        <h4>Playlist Description</h4>
+                    </div>
+                    <div class="more-item">
+                        <img src="images/more4.png" alt="Playlist 4" />
+                        <h3>Playlist Name</h3>
+                        <h4>Playlist Description</h4>
+                    </div>
+                    <div class="more-item">
+                        <img src="images/more5.png" alt="Playlist 5" />
+                        <h3>Playlist Name</h3>
+                        <h4>Playlist Description</h4>
+                    </div>
+                    <div class="more-item">
+                        <img src="images/more6.png" alt="Playlist 6" />
+                        <h3>Playlist Name</h3>
+                        <h4>Playlist Description</h4>
+                    </div>
+                    <div class="more-item">
+                        <img src="images/more7.png" alt="Playlist 7" />
+                        <h3>Playlist Name</h3>
+                        <h4>Playlist Description</h4>
+                    </div>
+                    <div class="more-item">
+                        <img src="images/more8.png" alt="Playlist 8" />
+                        <h3>Playlist Name</h3>
+                        <h4>Playlist Description</h4>
+                    </div>
+                    <div class="more-item">
+                        <img src="images/playlist8.png" alt="Playlist 9" />
+                        <h3>Playlist Name</h3>
+                        <h4>Playlist Description</h4>
+                    </div>
+                    <div class="more-item">
+                        <img src="images/more10.png" alt="Playlist 10" />
+                        <h3>Playlist Name</h3>
+                        <h4>Playlist Description</h4>
+                    </div>
+                </div>
+            </div>
+
+
+            <p>Bringing together the top songs from an artist.</p>
+            <a href="#">Best of artists</a>
+            <div class="carousel-wrapper">
+                <div class="artist-grid">
+                    <div class="artist-item">
+                        <img src="images/artist1.png" alt="Artist 1" />
+                        <h3>Artist Name 1</h3>
+                        <h4>Artist</h4>
+                    </div>
+                    <div class="artist-item">
+                        <img src="images/artist2.png" alt="Artist 2" />
+                        <h3>Artist Name 2</h3>
+                        <h4>Artist</h4>
+                    </div>
+                    <div class="artist-item">
+                        <img src="images/artist3.png" alt="Artist 3" />
+                        <h3>Artist Name 3</h3>
+                        <h4>Artist</h4>
+                    </div>
+                    <div class="artist-item">
+                        <img src="images/artist4.png" alt="Artist 4" />
+                        <h3>Artist Name 4</h3>
+                        <h4>Artist</h4>
+                    </div>
+                    <div class="artist-item">
+                        <img src="images/artist5.png" alt="Artist 5" />
+                        <h3>Artist Name 5</h3>
+                        <h4>Artist</h4>
+                    </div>
+                    <div class="artist-item">
+                        <img src="images/artist6.png" alt="Artist 6" />
+                        <h3>Artist Name 6</h3>
+                        <h4>Artist</h4>
+                    </div>
+                    <div class="artist-item">
+                        <img src="images/artist7.png" alt="Artist 7" />
+                        <h3>Artist Name 7</h3>
+                        <h4>Artist</h4>
+                    </div>
+                    <div class="artist-item">
+                        <img src="images/artist8.png" alt="Artist 8" />
+                        <h3>Artist Name 8</h3>
+                        <h4>Artist</h4>
+                    </div>
+                    <div class="artist-item">
+                        <img src="images/artist9.png" alt="Artist 9" />
+                        <h3>Artist Name 9</h3>
+                        <h4>Artist</h4>
+                    </div>
+                    <div class="artist-item">
+                        <img src="images/artist10.png" alt="Artist 10" />
+                        <h3>Artist Name 10</h3>
+                        <h4>Artist</h4>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#">Popular radio</a>
+            <div class="carousel-wrapper wide">
+                <div class="wide-card-grid">
+                    <div class="wide-card radio">
+                        <div class="card-text">
+                            <h3>Call You Mine Radio</h3>
+                            <p>Playlist.Spotify</p>
+                            <p>With The Chainsmokers,Bebe Rexha,Martin Garrix and more</p>
+                            <div class="card-actions">
+                                <button>▶</button>
+                                <button>＋</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wide-card radio">
+                        <div class="card-text">
+                            <h3>Charli xcx Radio</h3>
+                            <p>Playlist.Spotify</p>
+                            <p>With Chappell Roan,Addison Rae,Lorde and more</p>
+                            <div class="card-actions">
+                                <button>▶</button>
+                                <button>＋</button>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#">Podcasts</a>
+            <div class="carousel-wrapper wide">
+                <div class="wide-card-grid">
+                    <div class="wide-card podcast">
+                        <div class="card-image">
+                            <img src="images/Spotify Playlist 07 - Good Podcasts.png" alt="Podcast 1" />
+                        </div>
+                        <div class="card-text">
+                            <h3>The Subtle Art of Not Giving a F*ck</h3>
+                            <p>May 2024 • 5 hr 17 min • The ultimate guide to living a fulfilling life.</p>
+                            <div class="card-actions">
+                                <button>▶ Preview episode</button>
+                                <button>＋</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wide-card podcast">
+                        <div class="card-image">
+                            <img src="images/Spotify Playlist 07 - Good Podcasts.png" alt="Podcast 2" />
+                        </div>
+                        <div class="card-text">
+                            <h3>Baking A Murder</h3>
+                            <p>Oct 2024 • 54 min 43 sec • Tarot reader uncovers shocking secrets.</p>
+                            <div class="card-actions">
+                                <button>▶ Preview episode</button>
+                                <button>＋</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <footer>
+                <div class="footer-content">
+                    <div class="footer-divider"></div>
+
+                    <div class="footer-columns">
+                        <div class="footer-column">
+                            <p2>Company</p2>
+                            <ul>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Jobs</a></li>
+                                <li><a href="#">For the Record</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-column">
+                            <p2>Communities</p2>
+                            <ul>
+                                <li><a href="#">For Artists</a></li>
+                                <li><a href="#">Developers</a></li>
+                                <li><a href="#">Advertising</a></li>
+                                <li><a href="#">Investors</a></li>
+                                <li><a href="#">Vendors</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-column">
+                            <p2>Useful links</p2>
+                            <ul>
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">Free Mobile App</a></li>
+                                <li><a href="#">Popular by Country</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-column">
+                            <p2>Spotify Plans</p2>
+                            <ul>
+                                <li><a href="#">Premium Individual</a></li>
+                                <li><a href="#">Premium Duo</a></li>
+                                <li><a href="#">Premium Family</a></li>
+                                <li><a href="#">Premium Student</a></li>
+                                <li><a href="#">Spotify Free</a></li>
+                            </ul>
+                        </div>
+
+
+                        <div class="footer-links">
+                            <a href="https://instagram.com" target="_blank"><img src="images/icons8-instagram-25.png"
+                                    alt="Instagram"></a>
+                            <a href="https://X.com" target="_blank"><img src="images/icons8-x-25.png" alt="X"></a></a>
+                            <a href="https://Facebook.com" target="_blank"><img src="images/icons8-facebook-25.png"
+                                    alt="Facebook"></a>
+                        </div>
+
+
+                        <div class="footer-divider"></div>
+
+                    </div>
+
+                    <p1>© 2025 Spotify Clone by UDITA</p1>
+
+                </div>
+            </footer>
+
+        </section>
+    </div>
+</body>
+
+</html>

@@ -552,8 +552,157 @@ footer {
     }
 }
 
+/* Radio Section Styles */
+.radio-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  justify-content: space-between;
+  width: 100%;
+}
 
+.radio-item {
+  flex: 0 0 45%;
+  max-width: 45%;
+  height: 500px;
+  margin-bottom: 100px;
+}
 
+.radio-item:hover {
+  transform: scale(1.02);
+  background: no-repeat;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .radio-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+.section-label {
+  color: #b3b3b3;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.radio-card1,
+.radio-card2,
+.radio-card3,
+.radio-card4 {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  justify-content: space-between;
+  padding: 15px;
+  color: #fff;
+  gap: 15px;
+  height: 100%;
+}
+
+.radio-card1 {
+  background: linear-gradient(120deg, #16a791, #981d7d);
+}
+
+.radio-card2 {
+  background: linear-gradient(120deg, #1b2020, #2cb392);
+}
+
+.radio-card3 {
+  background: linear-gradient(120deg, #ce6a2c, #b5d451);
+}
+
+.radio-card4 {
+  background: linear-gradient(180deg,#bda6b8, #0c0520, #bda6b8);
+}
+
+.radio-img{
+    flex-shrink: 0;
+    width: 100px!important;
+    height: 100px!important;
+    object-fit: cover;  
+    margin-left: 10px;
+    margin-right: 30px; 
+    border-radius: 8px;
+}
+
+.radio-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.radio-top {
+  display: flex;
+  align-items: flex-start;
+}
+
+.radio-text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.radio-title, .radio-subtitle, .radio-bottom{
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.radio-title {  
+  font-size: xx-large!important;
+  margin: 0;
+}
+
+.radio-subtitle {
+  color: #b3b3b3;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.radio-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  margin-top: auto;
+}
+
+.radio-artists {
+  font-size: 0.9rem;
+  margin: 0;
+  color: #ccc;
+}
+
+.radio-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.radio-buttons button {
+  background-color: rgb(255 255 255 / 0.8);
+  border: none;
+  padding: 8px 12px;
+  border-radius: 999px;
+  color: #242424;
+  font-size: 0.90rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.radio-buttons button:hover {
+  background-color: #fff;
+}
+
+/*podcast section styles*/
 .carousel-wrapper.wide {
   overflow-x: auto;
   padding: 20px 0;
@@ -568,7 +717,7 @@ footer {
 .wide-card {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(120deg, rgb(0, 0, 0), rgb(8, 82, 35),rgb(29, 185, 84));
+  background: linear-gradient(120deg, rgb(0, 0, 0) 50%, rgb(198, 114, 35) 100%);
   color: #fff;
   border-radius: 12px;
   overflow: hidden;
